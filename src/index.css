@@ -1,0 +1,62 @@
+@import '~antd/dist/antd.css';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 15px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Login Page */
+
+#login-page {
+  background: rgb(245, 245, 245);
+  
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+#login-card {
+  position: relative;
+  top: calc(50vh - 180px);
+  left: calc(50vw - 235px);
+  padding-top: 36px;
+  padding-bottom: 66px;
+  width: 500px;
+  height: 300px;
+  text-align: center;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.login-button {
+  cursor: pointer;
+  color: white;
+  padding: 12px;
+  border-radius: 3px;
+  display: inline-block;
+  font-family: inherit;
+  font-weight: 700!important;
+  width: 75%;
+}
+
+.facebook {
+  color: white !important;
+  background-color: #3b5998;
+}
+
+.google {
+  margin-top: 5%;
+  color: white !important;
+  background-color: #ea4335;
+}
